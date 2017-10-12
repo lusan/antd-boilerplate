@@ -1,5 +1,9 @@
+// @flow
+
 import React, { Component } from 'react';
+
 import { Button, Icon } from 'antd-mobile';
+
 import './App.css';
 
 const customIcon = () => (
@@ -10,15 +14,15 @@ const customIcon = () => (
       <path d="M520.5 78.1z" />
     </g>
   </svg>
-)
+);
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <Icon type="success" size="lg"/>
-          <div style={{ width: 60, height:60 }}>{customIcon()}</div>
+          <Icon type="success" size="lg" />
+          <div style={{ width: 60, height: 60 }}>{customIcon()}</div>
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
