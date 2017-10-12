@@ -3,6 +3,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Custom Additions to Create React App
 
 * [antd-mobile latest beta](http://beta.mobile.ant.design/)
+* [React router](https://reacttraining.com/react-router/)
+* [react-router-dom](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
+* [flow](https://flow.org/)
+* [source-map-explorer](https://github.com/danvk/source-map-explorer)
+* [react-helmet](https://github.com/nfl/react-helmet)
+* [husky](https://github.com/typicode/husky)
+* [fastclick, recommended by antd](https://github.com/ftlabs/fastclick)
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
