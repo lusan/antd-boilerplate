@@ -101,6 +101,13 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
+animated@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/animated/-/animated-0.2.0.tgz#1a0e96f097b3fbc5b64d7eddc723bcc0a6f97633"
+  dependencies:
+    invariant "^2.2.0"
+    normalize-css-color "^1.0.1"
+
 anser@1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/anser/-/anser-1.4.1.tgz#c3641863a962cebef941ea2c8706f2cb4f0716bd"
@@ -237,7 +244,7 @@ array-filter@~0.0.0:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/array-filter/-/array-filter-0.0.1.tgz#7da8cf2e26628ed732803581fd21f67cacd2eeec"
 
-array-find-index@^1.0.1:
+array-find-index@^1.0.1, array-find-index@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/array-find-index/-/array-find-index-1.0.2.tgz#df010aa1287e164bbda6f9723b0a96a1ec4187a1"
 
@@ -1146,6 +1153,10 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
+bowser@^1.7.3:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.8.0.tgz#889d46ac922ec5db8297672747362ef836781ba7"
+
 boxen@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-0.6.0.tgz#8364d4248ac34ff0ef1b2f2bf49a6c60ce0d81b6"
@@ -1739,7 +1750,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@15.x, create-react-class@^15.6.0:
+create-react-class@15.x, create-react-class@^15.6.0, create-react-class@^15.6.2:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.2.tgz#cf1ed15f12aad7f14ef5f2dfe05e6c42f91ef02a"
   dependencies:
@@ -1792,6 +1803,12 @@ css-animation@1.x, css-animation@^1.3.2:
 css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
+
+css-in-js-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-2.0.0.tgz#5af1dd70f4b06b331f48d22a3d86e0786c0b9435"
+  dependencies:
+    hyphenate-style-name "^1.0.2"
 
 css-loader@0.28.4:
   version "0.28.4"
@@ -1921,6 +1938,10 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
+debounce@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.0.2.tgz#503cc674d8d7f737099664fb75ddbd36b9626dc6"
+
 debug@2.6.9, debug@^2.1.1, debug@^2.2.0, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -1930,6 +1951,12 @@ debug@2.6.9, debug@^2.1.1, debug@^2.2.0, debug@^2.6.0, debug@^2.6.3, debug@^2.6.
 decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
+
+deep-assign@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/deep-assign/-/deep-assign-2.0.0.tgz#ebe06b1f07f08dae597620e3dd1622f371a1c572"
+  dependencies:
+    is-obj "^1.0.0"
 
 deep-equal@^1.0.1:
   version "1.0.1"
@@ -3347,6 +3374,10 @@ husky@^0.14.3:
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
 
+hyphenate-style-name@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.2.tgz#31160a36930adaf1fc04c6074f7eb41465d4ec4b"
+
 iconv-lite@0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
@@ -3414,6 +3445,13 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
 
+inline-style-prefixer@^3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-3.0.8.tgz#8551b8e5b4d573244e66a34b04f7d32076a2b534"
+  dependencies:
+    bowser "^1.7.3"
+    css-in-js-utils "^2.0.0"
+
 inquirer@3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-3.2.1.tgz#06ceb0f540f45ca548c17d6840959878265fa175"
@@ -3463,7 +3501,7 @@ interpret@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.0.4.tgz#820cdd588b868ffb191a809506d6c9c8f212b1b0"
 
-invariant@^2.2.1, invariant@^2.2.2:
+invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
   dependencies:
@@ -4719,6 +4757,10 @@ nopt@^4.0.1:
     abbrev "1"
     osenv "^0.1.4"
 
+normalize-css-color@^1.0.1, normalize-css-color@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/normalize-css-color/-/normalize-css-color-1.0.2.tgz#02991e97cccec6623fe573afbbf0de6a1f3e9f8d"
+
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.4.0.tgz#12f95a307d58352075a04907b84ac8be98ac012f"
@@ -5837,6 +5879,23 @@ react-native-swipeout@~2.1.1:
   resolved "https://registry.yarnpkg.com/react-native-swipeout/-/react-native-swipeout-2.1.5.tgz#eb3a7ac3cf9418441b84a3a6fa7aa64b701598a4"
   dependencies:
     react-tween-state "^0.1.5"
+
+react-native-web@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.1.8.tgz#16d20ce7d961b6cbb80530284f6a6843eb59fb17"
+  dependencies:
+    animated "^0.2.0"
+    array-find-index "^1.0.2"
+    babel-runtime "^6.26.0"
+    create-react-class "^15.6.2"
+    debounce "1.0.2"
+    deep-assign "^2.0.0"
+    fbjs "^0.8.16"
+    hyphenate-style-name "^1.0.2"
+    inline-style-prefixer "^3.0.8"
+    normalize-css-color "^1.0.2"
+    prop-types "^15.6.0"
+    react-timer-mixin "^0.13.3"
 
 react-router-dom@^4.2.2:
   version "4.2.2"
