@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/lusan/antd-boilerplate.svg?branch=master)](https://travis-ci.org/lusan/antd-boilerplate)
+[![Dependency Status](https://david-dm.org/lusan/antd-boilerplate.svg?style=flat-square)](https://david-dm.org/lusan/antd-boilerplate.svg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
