@@ -1,3 +1,5 @@
+https://travis-ci.org/lusan/antd-boilerplate.svg?branch=master
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 * [react native web](https://github.com/necolas/react-native-web) is already mapped in the package json(Need to figure how we can integrate all android/ios in our project)
