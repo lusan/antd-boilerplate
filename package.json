@@ -67,8 +67,9 @@
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "standard react-app-rewired test --env=jsdom",
-    "flow": "flow"
+    "test": "react-app-rewired test --env=jsdom",
+    "flow": "flow",
+    "standardfix": "standard --fix"
   },
   "jest": {
     "collectCoverageFrom": [
