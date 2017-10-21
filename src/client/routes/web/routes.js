@@ -1,11 +1,11 @@
-import App from '../../App';
-import HeaderWrapper from '../../components/layouts/header';
-import FooterWrapper from '../../components/layouts/footer';
-import OrdersWrapper from '../../components/orders';
-import RefillMedicines from '../../components/refill';
-import ArticlesWrapper from '../../components/articles';
-import ProfileWrapper from '../../components/profile';
-import NotFound from '../../NotFound';
+import App from '../../App'
+import HeaderWrapper from '../../components/layouts/header'
+import FooterWrapper from '../../components/layouts/footer'
+import OrdersWrapper from '../../components/orders'
+import RefillMedicines from '../../components/refill'
+import ArticlesWrapper from '../../components/articles'
+import ProfileWrapper from '../../components/profile'
+import NotFound from '../../NotFound'
 
 export const routes = [
   {
@@ -43,4 +43,4 @@ export const routes = [
     path: '/not',
     main: NotFound
   }
-];
+]

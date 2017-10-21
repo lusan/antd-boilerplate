@@ -1,65 +1,65 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import { TabBar } from 'antd-mobile';
+import { TabBar } from 'antd-mobile'
 
-import order from '../../../images/odrMdcn.png';
+import order from '../../../images/odrMdcn.png'
 
 class Footer extends Component {
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
 
-    this.navigatePath = this.navigatePath.bind(this);
+    this.navigatePath = this.navigatePath.bind(this)
   }
 
-  navigatePath(path) {
-    this.props.history.push(path);
+  navigatePath (path) {
+    this.props.history.push(path)
   }
 
-  render() {
+  render () {
     return (
       <TabBar
-        unselectedTintColor="#949494"
-        tintColor="#33A3F4"
-        barTintColor="white"
+        unselectedTintColor='#949494'
+        tintColor='#33A3F4'
+        barTintColor='white'
       >
         <TabBar.Item
-          title="Home"
-          key="Home"
+          title='Home'
+          key='Home'
           icon={order}
           onPress={() => {
-            this.navigatePath('/');
+            this.navigatePath('/')
           }}
         />
 
         <TabBar.Item
-          title="Orders"
-          key="Orders"
+          title='Orders'
+          key='Orders'
           icon={order}
           onPress={() => {
-            this.navigatePath('/orders');
+            this.navigatePath('/orders')
           }}
         />
 
         <TabBar.Item
-          title="Articles"
-          key="Articles"
+          title='Articles'
+          key='Articles'
           icon={order}
           onPress={() => {
-            this.navigatePath('/articles');
+            this.navigatePath('/articles')
           }}
         />
 
         <TabBar.Item
-          title="Profile"
-          key="Profile"
+          title='Profile'
+          key='Profile'
           icon={order}
           onPress={() => {
-            this.navigatePath('/profile');
+            this.navigatePath('/profile')
           }}
         />
       </TabBar>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer

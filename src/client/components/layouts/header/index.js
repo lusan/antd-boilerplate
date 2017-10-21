@@ -1,14 +1,14 @@
-import React from 'react';
-import { connect } from 'react-redux';
+import React from 'react'
+import { connect } from 'react-redux'
 
-import Header from './Header';
+import Header from './Header'
 
-const HeaderWrapper = props => <Header items={props.items} />;
+const HeaderWrapper = props => <Header items={props.items} />
 
-function mapStateToProps(state) {
+function mapStateToProps (state) {
   return {
     items: state.items
-  };
+  }
 }
 
-export default connect(mapStateToProps)(HeaderWrapper);
+export default connect(mapStateToProps)(HeaderWrapper)

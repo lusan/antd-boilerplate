@@ -1,9 +1,9 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
 
-import { View } from 'react-native';
+import { View } from 'react-native'
 
-import { routes } from './routes';
+import { routes } from './routes'
 
 const Routes = props => (
   <Switch>
@@ -45,6 +45,6 @@ const Routes = props => (
       ))}
     </View>
   </Switch>
-);
+)
 
-export default Routes;
+export default Routes

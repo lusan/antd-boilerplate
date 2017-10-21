@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 
-import { NavBar, Icon } from 'antd-mobile';
+import { NavBar, Icon } from 'antd-mobile'
 
 const Header = props => (
   <NavBar
-    leftContent="back"
-    mode="dark"
+    leftContent='back'
+    mode='dark'
     onLeftClick={() => console.log('onLeftClick')}
-    rightContent={[<Icon key="1" type="ellipsis" />]}
+    rightContent={[<Icon key='1' type='ellipsis' />]}
   >
     {props.items[0].name}
   </NavBar>
-);
+)
 
-export default Header;
+export default Header

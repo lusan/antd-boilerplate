@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-import { Text } from 'react-native';
+import { Text } from 'react-native'
 
-const ProfileWrapper = props => <Text>ProfileWrapper</Text>;
+const ProfileWrapper = props => <Text>ProfileWrapper</Text>
 
-export default ProfileWrapper;
+export default ProfileWrapper

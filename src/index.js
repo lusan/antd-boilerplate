@@ -1,18 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
+import { createStore } from 'redux'
+import { Provider } from 'react-redux'
 
-import rootReducer from './client/reducers';
+import rootReducer from './client/reducers'
 
-import './index.css';
+import './index.css'
 
-import Routes from './client/routes/web';
+import Routes from './client/routes/web'
 
-import registerServiceWorker from './registerServiceWorker';
+import registerServiceWorker from './registerServiceWorker'
 
-const store = createStore(rootReducer);
+const store = createStore(rootReducer)
 
 ReactDOM.render(
   <Provider store={store}>
@@ -21,6 +21,6 @@ ReactDOM.render(
     </BrowserRouter>
   </Provider>,
   document.getElementById('root')
-);
+)
 
-registerServiceWorker();
+registerServiceWorker()

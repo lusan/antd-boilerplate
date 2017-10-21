@@ -5,10 +5,10 @@ const initialState = {
       name: 'item 1'
     }
   ]
-};
-
-export function rootReducer(state = initialState, action) {
-  return state;
 }
 
-export default rootReducer;
+export function rootReducer (state = initialState, action) {
+  return state
+}
+
+export default rootReducer

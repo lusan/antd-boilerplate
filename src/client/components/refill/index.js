@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-import { Text } from 'react-native';
+import { Text } from 'react-native'
 
-const RefillMedicines = () => <Text>Refill Medicine</Text>;
+const RefillMedicines = () => <Text>Refill Medicine</Text>
 
-export default RefillMedicines;
+export default RefillMedicines

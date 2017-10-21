@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-import { Text } from 'react-native';
+import { Text } from 'react-native'
 
-const OrdersWrapper = props => <Text>OrdersWrapper</Text>;
+const OrdersWrapper = props => <Text>OrdersWrapper</Text>
 
-export default OrdersWrapper;
+export default OrdersWrapper

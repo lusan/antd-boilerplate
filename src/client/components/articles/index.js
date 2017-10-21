@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-import { Text } from 'react-native';
+import { Text } from 'react-native'
 
-const ArticlesWrapper = props => <Text>ArticlesWrapper</Text>;
+const ArticlesWrapper = props => <Text>ArticlesWrapper</Text>
 
-export default ArticlesWrapper;
+export default ArticlesWrapper
