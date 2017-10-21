@@ -1,9 +1,14 @@
 const initialState = {
-  items: []
+  items: [
+    {
+      id: 1,
+      name: 'item 1'
+    }
+  ]
 };
 
-export function storiesReducer(state = initialState, action) {
+export function rootReducer(state = initialState, action) {
   return state;
 }
 
-export default storiesReducer;
+export default rootReducer;
