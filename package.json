@@ -6,7 +6,7 @@
     "antd-mobile": "^2.0.0-beta.6",
     "autoprefixer": "7.1.2",
     "babel-core": "6.25.0",
-    "babel-eslint": "7.2.3",
+    "babel-eslint": "^8.0.1",
     "babel-jest": "20.0.3",
     "babel-loader": "7.1.1",
     "babel-preset-react-app": "^3.0.3",
@@ -19,7 +19,7 @@
     "eslint": "4.4.1",
     "eslint-config-react-app": "^2.0.1",
     "eslint-loader": "1.9.0",
-    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-flowtype": "^2.39.1",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-react": "7.1.0",
@@ -64,8 +64,12 @@
       "git add"
     ]
   },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [ "flowtype" ]
+  },
   "scripts": {
-    "precommit": "standard --fix",
+    "precommit": "standard --parser babel-eslint --plugin flowtype",
     "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
