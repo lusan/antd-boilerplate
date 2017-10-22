@@ -47,6 +47,8 @@
     "react-scripts": "^1.0.14",
     "react-test-renderer": "^16.0.0",
     "redux": "^3.7.2",
+    "redux-observable": "^0.16.0",
+    "rxjs": "^5.5.0",
     "source-map-explorer": "^1.5.0",
     "style-loader": "0.18.2",
     "sw-precache-webpack-plugin": "0.11.4",
