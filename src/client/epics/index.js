@@ -1,7 +1,10 @@
 import { combineEpics } from 'redux-observable'
 
-import { increaseCount } from '../components/orders/orderEpics'
+import { increaseCount, decreaseCount } from '../components/orders/orderEpics'
 
-const rootEpic = combineEpics(increaseCount)
+const rootEpic = combineEpics(
+  increaseCount,
+  decreaseCount
+)
 
 export default rootEpic
