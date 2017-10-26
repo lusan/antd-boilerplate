@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 
 import { View, Text, Button } from 'react-native'
 
+import Users from './Users'
+
 class Orders extends Component {
   constructor (props) {
     super(props)
@@ -31,6 +33,12 @@ class Orders extends Component {
       <View>
         <Text>Orders: {this.props.ordersState.ordersCount}</Text>
         <Button title='Inc' onPress={this.changeCount} />
+        <Users
+          users={this.props.ordersState.users}
+          loading={this.props.ordersState.loading}
+          current={this.props.ordersState.current}
+          fetchUserAction={this.props.fetchUserAction}
+        />
       </View>
     )
   }

@@ -2,7 +2,11 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
-import { increaseCount, decreaseCount } from './ordersActions'
+import {
+  increaseCount,
+  decreaseCount,
+  fetchUserAction
+} from './ordersActions'
 
 import { View } from 'react-native'
 
@@ -14,6 +18,7 @@ const OrdersWrapper = props => (
       increaseCount={props.actions.increaseCount}
       decreaseCount={props.actions.decreaseCount}
       ordersState={props.ordersState}
+      fetchUserAction={props.actions.fetchUserAction}
     />
   </View>
 )
@@ -28,7 +33,8 @@ function matchDispatchToProps (dispatch) {
   return {
     actions: bindActionCreators({
       increaseCount: increaseCount,
-      decreaseCount: decreaseCount
+      decreaseCount: decreaseCount,
+      fetchUserAction: fetchUserAction
     }, dispatch)
   }
 }
