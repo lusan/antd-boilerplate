@@ -1,7 +1,13 @@
 import React from 'react'
 
-import { Text } from 'react-native'
+import { View } from 'react-native'
 
-const OrdersWrapper = props => <Text>OrdersWrapper</Text>
+import Orders from './Orders'
+
+const OrdersWrapper = props => (
+  <View>
+    <Orders />
+  </View>
+)
 
 export default OrdersWrapper
