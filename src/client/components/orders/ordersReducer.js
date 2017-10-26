@@ -1,7 +1,7 @@
-import { INCREASE_COUNT } from './ordersActionTypes'
+import { INCREASE_COUNT, DECREASE_COUNT } from './ordersActionTypes'
 
 const initialState = {
-  ordersCount: 0
+  ordersCount: 3
 }
 
 function ordersReducer (state = initialState, action) {
@@ -11,6 +11,15 @@ function ordersReducer (state = initialState, action) {
         ...state,
         ordersCount: action.count
       }
+
+    case DECREASE_COUNT:
+      return {
+        ...state,
+        ordersCount: action.count
+      }
+
+    default:
+      return state
   }
 }
 

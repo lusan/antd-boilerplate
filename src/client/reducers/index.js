@@ -1,4 +1,8 @@
-const initialState = {
+import { combineReducers } from 'redux'
+
+import ordersReducer from '../components/orders/ordersReducer'
+
+const itemsState = {
   items: [
     {
       id: 1,
@@ -7,8 +11,9 @@ const initialState = {
   ]
 }
 
-export function rootReducer (state = initialState, action) {
-  return state
-}
+const rootReducer = combineReducers({
+  ordersState: ordersReducer,
+  itemsState: itemsState.items
+})
 
 export default rootReducer
