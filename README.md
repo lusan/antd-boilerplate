@@ -10,6 +10,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Custom Additions to Create React App
 
 * [antd-mobile latest beta](http://beta.mobile.ant.design/)
+* [Redux](http://redux.js.org/)
+* [Redux Observables](https://redux-observable.js.org/)
 * [React router](https://reacttraining.com/react-router/)
 * [react-router-dom](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
 * [flow](https://flow.org/)
