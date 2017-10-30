@@ -7,6 +7,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 * [react native web](https://github.com/necolas/react-native-web) is already mapped in the package json(Need to figure how we can integrate all android/ios in our project)
 
+## TODO (Pull request welcome)
+
+- [ ] Storage Behaviour
+- [ ] Auth Behaviour with cross browser platform support
+- [ ] Theme Integration Antd
+- [ ] Caching requests service worker
+- [ ] Server Side Rendering
+
 ## Custom Additions to Create React App
 
 * [antd-mobile latest beta](http://beta.mobile.ant.design/)
