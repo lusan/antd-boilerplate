@@ -12,6 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [ ] Storage Behaviour
 - [ ] Auth Behaviour with cross browser platform support
 - [ ] Theme Integration Antd
+- [ ] Redux Route Integration
 - [ ] Caching requests service worker
 - [ ] Server Side Rendering
 
