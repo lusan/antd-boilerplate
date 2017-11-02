@@ -3,7 +3,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/504c6d6ffa363b5b2cf7/test_coverage)](https://codeclimate.com/github/lusan/antd-boilerplate/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/504c6d6ffa363b5b2cf7/maintainability)](https://codeclimate.com/github/lusan/antd-boilerplate/maintainability)
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). It is a working boilerplate for those who likes the best of Redux and Observables.
 
 * [react native web](https://github.com/necolas/react-native-web) is already mapped in the package json(Need to figure how we can integrate all android/ios in our project)
 
