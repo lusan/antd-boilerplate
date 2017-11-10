@@ -1,4 +1,5 @@
 const { injectBabelPlugin, getLoader } = require('react-app-rewired')
+const autoprefixer = require('autoprefixer')
 
 const fileLoaderMatcher = function (rule) {
   return rule.loader && rule.loader.indexOf(`file-loader`) !== -1
