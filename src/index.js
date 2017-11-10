@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom'
 import { createStore, applyMiddleware, compose } from 'redux'
 import { Provider } from 'react-redux'
 import { createEpicMiddleware } from 'redux-observable'
+import { offline } from 'redux-offline'
+import offlineConfig from 'redux-offline/lib/defaults'
 
 import rootEpic from './client/epics'
 import rootReducer from './client/reducers'
@@ -18,12 +20,14 @@ const epicMiddleware = createEpicMiddleware(rootEpic)
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
-const store = createStore(
-  rootReducer,
-  composeEnhancers(
-    applyMiddleware(epicMiddleware)
-  )
-)
+// const store = createStore(
+//   rootReducer,
+//   composeEnhancers(
+//     applyMiddleware(epicMiddleware)
+//   )
+// )
+
+const store = offline(offlineConfig)(createStore)(rootReducer, composeEnhancers(applyMiddleware(epicMiddleware)))
 
 ReactDOM.render(
   <Provider store={store}>
