@@ -11,9 +11,9 @@ const itemsState = {
   ]
 }
 
-const rootReducer = combineReducers({
+const rootReducer = {
   ordersState: ordersReducer,
   itemsState: itemsState.items
-})
+}
 
 export default rootReducer
